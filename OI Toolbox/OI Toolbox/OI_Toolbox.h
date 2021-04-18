@@ -15,4 +15,11 @@
 #include <Windows.h>
 void GoTuFunc(const std::string func);
 void DataCreate();
+void ClearScreen()
+{
+	for (size_t i = 0; i < 50; i++)
+	{
+		std::cout << "\n";
+	}
+}
 #endif
