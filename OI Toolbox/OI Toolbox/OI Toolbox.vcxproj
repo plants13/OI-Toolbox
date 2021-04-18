@@ -139,7 +139,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="OI Toolbox.cpp" />
+    <ClCompile Include="OI_Toolbox.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="OI_Toolbox.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
