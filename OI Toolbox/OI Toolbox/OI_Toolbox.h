@@ -1,5 +1,5 @@
-#ifndef OI_Toolbox
-#define OI_Toolbox
+#ifndef OI_TOOLBOX_H
+#define OI_TOOLBOX_H
 #include <iostream>
 #include <cstdio>
 #include <cstring>
