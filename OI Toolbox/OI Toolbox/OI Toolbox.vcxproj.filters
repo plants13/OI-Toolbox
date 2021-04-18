@@ -18,6 +18,9 @@
     <ClCompile Include="OI_Toolbox.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="DataCreate.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="OI_Toolbox.h">

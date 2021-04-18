@@ -139,6 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="DataCreate.cpp" />
     <ClCompile Include="OI_Toolbox.cpp" />
   </ItemGroup>
   <ItemGroup>
