@@ -3,8 +3,7 @@
 
 #include"OI_Toolbox.h"
 void Lobby();
-void GoTuFunc(const std::string func);
-void DataCreate();
+
 int main()
 {
     std::cout << "Copyleft by The GNU General Public License v3.0.\n\n\n";

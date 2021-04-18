@@ -13,4 +13,6 @@
 #include <cctype>
 #include <ctime>
 #include <Windows.h>
+void GoTuFunc(const std::string func);
+void DataCreate();
 #endif
