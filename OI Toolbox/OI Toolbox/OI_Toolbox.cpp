@@ -19,7 +19,7 @@ int main()
 void Lobby()
 {
     std::cout << "输入一个字符串以使用该串对应的功能\n";
-    std::cout << "DataCreate:数据生成器\nEXIT:退出";
+    std::cout << "DataCreate:数据生成器\nEXIT:退出\n";
     std::string func;
     std::cin >> func;
     GoTuFunc(func);
