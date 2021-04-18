@@ -4,7 +4,8 @@
 #include"OI_Toolbox.h"
 int main()
 {
-    std::cout << "这是一份在制品。\n该软件不可避免的存在漏洞，如果你发现了漏洞，欢迎来我们的Github仓库\nhttps://github.com/plants13/OI-Toolbox\n提交Issues，如果你能帮助解决，你也可以提交Pull Request。";
+    std::cout << "这是一份在制品。\n该软件不可避免的存在漏洞，如果你发现了漏洞，欢迎来我们的Github仓库\nhttps://github.com/plants13/OI-Toolbox\n提交Issues，如果你能帮助解决，你也可以提交Pull Request。\n";
+    system("pause");
 }
 
 // 运行程序: Ctrl + F5 或调试 >“开始执行(不调试)”菜单
