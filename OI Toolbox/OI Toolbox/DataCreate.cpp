@@ -2,6 +2,8 @@
 using namespace std;
 void DataCreate()
 {
-	cout << "输入数据范围...\nint\nLL(long long)\nuint(unsigened int)\nuLL(unsigened long long)";
+	PrintInfo("输入数据范围...\nint\nLL(long long)\nuint(unsigened int)\nuLL(unsigened long long)");
+	string str;
+	cin >> str;
 	
 }

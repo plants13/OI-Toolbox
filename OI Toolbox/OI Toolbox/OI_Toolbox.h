@@ -25,13 +25,13 @@ void ClearScreen()
 void PrintInfo(const std::string str)
 {
 	SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 0x07);
-	cout << "[Info]" << str;
+	cout << "[Info]" << str << '\n';
 	SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 0x07);
 }
 void PrintERR(const std::string str)
 {
 	SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 0x0c);
-	cout << "[ERROR]" << str;
+	cout << "[ERROR]" << str << '\n';
 	SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 0x07);
 }
 #endif
