@@ -2,7 +2,7 @@
 # 此 .gitignore 文件已由 Microsoft(R) Visual Studio 自动创建。
 ################################################################################
 
-/OI Toolbox/OI Toolbox/x64/Debug/OI Toolbox.tlog
-/OI Toolbox/OI Toolbox/x64/Debug
-/OI Toolbox/.vs/OI Toolbox/v16
+/OI Toolbox/OI Toolbox/x64
+/OI Toolbox/.vs
 /.vs
+/OI Toolbox/x64

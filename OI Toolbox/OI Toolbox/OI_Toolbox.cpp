@@ -44,6 +44,7 @@ void GoTuFunc(const std::string func)
     if (func == "DBG")
     {
         PrintInfo("A Info.");
+        PrintLog("A Log.");
         PrintERR("A Error.");
         system("pause");
     }

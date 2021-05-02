@@ -24,14 +24,20 @@ inline void ClearScreen()
 }
 inline void PrintInfo(const std::string str)
 {
+	SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 0x06);
+	std::cout << "[Info]  " << str << '\n';
 	SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 0x07);
-	std::cout << "[Info]" << str << '\n';
+}
+inline void PrintLog(const std::string str)
+{
+	SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 0x07);
+	std::cout << "[Log]   " << str << '\n';
 	SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 0x07);
 }
 inline void PrintERR(const std::string str)
 {
 	SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 0x0c);
-	std::cerr << "[ERROR]" << str << '\n';
+	std::cerr << "[ERROR] " << str << '\n';
 	SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 0x07);
 }
 #endif
