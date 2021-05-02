@@ -4,8 +4,6 @@
 #include"OI_Toolbox.h"
 void Lobby();
 
-#define DEBUG
-
 int main()
 {
     std::cout << "Copyleft by The GNU General Public License v3.0.\n\n\n";
@@ -22,9 +20,9 @@ void Lobby()
 {
     std::cout << "输入一个字符串以使用该串对应的功能\n";
     std::cout << "DataCreate:数据生成器\nEXIT:退出\n";
-#ifdef DEBUG
+#ifdef _DEBUG
     std::cout << "DBG:调试功能\n";
-#endif // DEBUG
+#endif // _DEBUG
 
     std::string func;
     std::cin >> func;
@@ -40,7 +38,7 @@ void GoTuFunc(const std::string func)
     {
         DataCreate();
     }
-#ifdef DEBUG
+#ifdef _DEBUG
     if (func == "DBG")
     {
         PrintInfo("A Info.");
@@ -48,7 +46,7 @@ void GoTuFunc(const std::string func)
         PrintERR("A Error.");
         system("pause");
     }
-#endif // DEBUG
+#endif // _DEBUG
 
 }
 
