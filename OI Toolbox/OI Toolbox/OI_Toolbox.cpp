@@ -11,8 +11,8 @@ int main()
     std::cout << "\n\n\n\n\n";
     while (1)
     {
-        Lobby();
         ClearScreen();
+        Lobby();
     }
     system("pause");
 }
